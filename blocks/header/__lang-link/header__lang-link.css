@@ -15,3 +15,13 @@ li:first-child {
   text-decoration: underline;
   color: #ffffff;
 }
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 14px 0 8px;
+  }
+}
