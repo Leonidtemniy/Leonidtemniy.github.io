@@ -1,7 +1,30 @@
 .lead__image {
-  width: 984px;
-  height: 615px;
   align-items: center;
   display: inline-block;
-  padding: 64px 148px 8px;
+  padding: 64px 11.6% 8px;
+  max-width: 100%;
+  object-fit: contain;
+  height: auto;
+  object-position: center;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 320px) {
+  .lead__image {
+    padding: 40px 0.64% 8px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    padding: 56px 4.7% 8px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead__image {
+    padding: 40px 0 8px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    padding: 48px 0 8px;
+  }
 }

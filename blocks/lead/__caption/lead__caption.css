@@ -10,5 +10,15 @@
   color: #ffffff;
   text-align: start;
   display: inline;
-  margin-left: 148px;
+  margin-left: 11.6%;
+}
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    margin-left: 4.7%;
+  }
 }

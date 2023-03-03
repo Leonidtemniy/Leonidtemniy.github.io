@@ -11,7 +11,7 @@
   line-height: 28px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .header__lang-link {
     font-family: "Inter";
     font-style: normal;
