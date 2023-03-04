@@ -1,0 +1,10 @@
+.places {
+  margin: 0;
+  padding: 80px 11.5% 0;
+}
+.places:first-of-type {
+  padding-top: 92px;
+}
+.places:last-child {
+  padding-bottom: 92px;
+}
