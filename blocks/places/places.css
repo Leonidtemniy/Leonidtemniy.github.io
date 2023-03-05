@@ -1,10 +1,9 @@
 .places {
   margin: 0;
-  padding: 80px 11.5% 0;
+  padding: 92px 11.5% 0;
 }
-.places:first-of-type {
-  padding-top: 92px;
-}
-.places:last-child {
-  padding-bottom: 92px;
+@media screen and (max-width: 1024px) {
+  .places {
+    padding: 92px 4.7% 0;
+  }
 }

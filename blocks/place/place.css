@@ -1,6 +1,11 @@
 .place {
   margin: 0;
-  width: 100%;
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto 1fr 2fr;
+  grid-template-areas:
+    "place__title place__website"
+    "place__image place__paragraph"
+    "place__image place__paragraph_down";
 }

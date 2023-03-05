@@ -7,5 +7,8 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #ffffff;
-  display: block;
+  grid-area: place__website_link;
+}
+.place__website_link:hover {
+  opacity: 0.8;
 }

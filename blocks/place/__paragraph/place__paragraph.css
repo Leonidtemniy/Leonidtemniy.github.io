@@ -7,4 +7,10 @@
   line-height: 163%;
   color: #ffffff;
   display: block;
+  grid-area: place__paragraph;
+  align-self: start;
+  margin-top: 48px;
+}
+.place__paragraph:last-child {
+  margin-top: 26px;
 }
