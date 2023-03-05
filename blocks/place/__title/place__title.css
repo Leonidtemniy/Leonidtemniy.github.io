@@ -10,3 +10,17 @@
   grid-area: place__title;
   max-width: 460px;
 }
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 43px;
+    line-height: 46px;
+    align-self: flex-end;
+    max-width: 333px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .place__title {
+    align-self: flex-start;
+    padding-left: 16px;
+  }
+}

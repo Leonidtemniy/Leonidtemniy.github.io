@@ -3,9 +3,27 @@
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: auto 1fr 2fr;
+  grid-template-rows: repeat(3, auto);
   grid-template-areas:
     "place__title place__website"
     "place__image place__paragraph"
     "place__image place__paragraph_down";
+  margin-top: 80px;
+}
+.place:first-of-type {
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .place {
+    column-gap: 28px;
+    margin-top: 73px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
 }

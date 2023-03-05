@@ -11,3 +11,8 @@
   padding-bottom: 12px;
   padding-top: 48px;
 }
+@media screen and (max-width: 500px) {
+  .place__website_url-heading {
+    padding-top: 32px;
+  }
+}
