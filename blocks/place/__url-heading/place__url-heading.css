@@ -1,4 +1,4 @@
-.place__website_url-heading {
+.place__url-heading {
   margin: 0;
   font-family: "Inter";
   font-style: normal;
@@ -7,12 +7,12 @@
   line-height: 12px;
   letter-spacing: 2px;
   color: #aaaaaa;
-  grid-area: place__website_url-heading;
+  grid-area: place__url-heading;
   padding-bottom: 12px;
   padding-top: 48px;
 }
 @media screen and (max-width: 500px) {
-  .place__website_url-heading {
+  .place__url-heading {
     padding-top: 32px;
   }
 }
