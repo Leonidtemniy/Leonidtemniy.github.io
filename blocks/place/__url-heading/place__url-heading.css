@@ -9,7 +9,7 @@
   color: #aaaaaa;
   grid-area: place__url-heading;
   padding-bottom: 12px;
-  padding-top: 48px;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 500px) {
   .place__url-heading {

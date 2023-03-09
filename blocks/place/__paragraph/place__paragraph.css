@@ -10,10 +10,12 @@
   grid-area: place__paragraph;
   align-self: start;
   margin-top: 48px;
+  display: flex;
 }
-.place__paragraph:last-child {
+.place__paragraph:nth-child(2n) {
   margin-top: 26px;
 }
+
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
