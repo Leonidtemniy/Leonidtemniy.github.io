@@ -12,13 +12,19 @@
   display: inline;
   margin-left: 11.6%;
 }
-@media screen and (max-width: 320px) {
-  .lead__caption {
-    margin-left: 5%;
-  }
-}
+
 @media screen and (max-width: 1024px) {
   .lead__caption {
     margin-left: 4.7%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 3.2%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin-left: 5%;
   }
 }

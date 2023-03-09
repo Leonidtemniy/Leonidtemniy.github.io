@@ -8,11 +8,7 @@
   object-position: center;
   box-sizing: border-box;
 }
-@media screen and (max-width: 320px) {
-  .lead__image {
-    padding: 40px 0.64% 8px;
-  }
-}
+
 @media screen and (max-width: 1024px) {
   .lead__image {
     padding: 56px 4.7% 8px;
@@ -20,11 +16,12 @@
 }
 @media screen and (max-width: 768px) {
   .lead__image {
-    padding: 40px 0 8px;
+    padding: 56px 0 8px;
   }
 }
-@media screen and (max-width: 1023px) {
+
+@media screen and (max-width: 320px) {
   .lead__image {
-    padding: 48px 0 8px;
+    padding: 40px 0.64% 8px;
   }
 }

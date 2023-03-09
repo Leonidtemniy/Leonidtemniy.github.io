@@ -25,7 +25,7 @@
   .photo-grid {
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    gap: 16px;
+    gap: 12px;
     padding: 64px 16px 0;
   }
 }
