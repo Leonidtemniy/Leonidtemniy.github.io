@@ -15,4 +15,4 @@
 
 #### Сайт о путешествиях по России.
 
-ссылка на сайт [ЯндексПрактикум](https://practicum.yandex.ru)
+ссылка на сайт [Открыть сайт в браузере](https://leonidtemniy.github.io/russian-travel/)
