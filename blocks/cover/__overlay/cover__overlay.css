@@ -9,6 +9,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  aspect-ratio: 1184/740;
 }
 .cover__overlay:hover {
   background: #2a2c2fcc;
