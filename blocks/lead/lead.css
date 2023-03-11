@@ -4,20 +4,3 @@
   flex-direction: column;
   align-items: flex-start;
 }
-@font-face {
-  font-family: "Inter", "Arial";
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Inter", "Arial Black";
-  font-style: normal;
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: "Inter", "Arial Bold";
-  font-style: normal;
-  font-weight: 700;
-}
