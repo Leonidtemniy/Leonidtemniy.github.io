@@ -10,12 +10,13 @@
   color: #ffffff;
   max-width: 360px;
   margin-top: 32px;
+  font-family: "Inter", "Arial", sans-serif;
 }
 
 @media screen and (max-width: 600px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    margin: 16px 27px 0;
+    margin: 16px 16px 0;
   }
 }
