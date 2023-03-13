@@ -7,4 +7,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   aspect-ratio: 1184/740;
+  overflow: hidden;
+  min-height: fit-content;
 }
