@@ -23,7 +23,6 @@
     margin-bottom: 25px;
   }
   .place__paragraph:last-child {
-    margin-bottom: 0;
     padding-bottom: 73px;
   }
   .place__paragraph:first-child {
@@ -41,5 +40,6 @@
   .place__paragraph:first-child {
     margin-top: 32px;
     padding-bottom: 0;
+    /* Этот падинг(строка 42) не дублирует 29 строку, а обнуляет 38 строку */
   }
 }
